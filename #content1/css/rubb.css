@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* ************************************ */
+
+/* css = 0 */
+*
+{padding:0; margin:0;}
+
+/*MM*/* {background: #444; color: #ccc;}
+
+/*content*/
+.main
+{
+	max-width: 1000px;
+	min-width: 400px;
+	margin: 20px auto; /* центрирование блока main */
+	background: #ccc;
+	overflow: hidden;
+	/*tuning*/ padding: 20px; /*effect - OK*/
+}
+.block-wrapper
+{
+	float: left;
+	width: 33%;
+	/*tuning*/ border: 1px solid #f00; overflow: hidden;
+}
+.block
+{
+	background: #222;
+	border: 2px solid #ccc;
+	margin: 20px;
+	padding: 10px;
+}
