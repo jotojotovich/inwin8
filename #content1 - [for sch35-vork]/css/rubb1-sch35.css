@@ -5,7 +5,7 @@
 *
 {padding:0; margin:0;}
 
-/*MM*/* body {background: #444; color: #ccc; transition-duration: 2s;
+/*MM*/* body {background: #444; color: #ccc; -webkit-transition-duration: 2s; transition-duration: 2s;
 }
 
 body:hover
@@ -35,6 +35,7 @@ background: #222;
 	position: fixed;
 	top: 60%;
 	z-index: -1;
+	-webkit-transition: top 0.5s ease-out 0.5s;
 	transition: top 0.5s ease-out 0.5s;
 	background: #222;
 	border: 0px solid #ccc;
@@ -57,6 +58,7 @@ background: #222;
 	margin: 7px;
 	padding: 3px;
 	box-shadow: 3px;
+	-webkit-transition: 2s;
 	transition: 2s;
 }
 
@@ -82,6 +84,7 @@ background: #222;
 {
 	max-width: 100%;
 	text-align: center;
+	-webkit-transition: 1s ease-out 0.5s;
 	transition: 1s ease-out 0.5s;
 }
 
@@ -103,6 +106,7 @@ background: #222;
 {
 	margin: 2px 2px 2px 2px;
 	max-width: 71%;
+	-webkit-transition-duration: 0.5s;
 	transition-duration: 0.5s;
 	z-index: -2;
 }
@@ -128,6 +132,7 @@ background: #222;
 	position: fixed;
 	top: 53%;
 	z-index: 1;
+	-webkit-transition: top 1s ease-out 0.5s;
 	transition: top 1s ease-out 0.5s;
 	background: #222;
 	border: 0px solid #ccc;
@@ -143,6 +148,7 @@ background: #222;
 {
 	width: 50%;
 	text-align: center;
+	-webkit-transition-duration: 2s;
 	transition-duration: 2s;
 }
 #photo:hover
@@ -154,6 +160,7 @@ background: #222;
 {
 	width: 55%;
 	text-align: center;/* Here centering does not work - look rule [.block-wrapper2] */
+	-webkit-transition-duration: 1s;
 	transition-duration: 1s;
 }
 #photo1:hover
