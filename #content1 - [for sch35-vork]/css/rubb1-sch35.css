@@ -84,8 +84,8 @@ background: #222;
 {
 	max-width: 100%;
 	text-align: center;
-	-webkit-transition: 1s ease-out 0.5s;
-	transition: 1s ease-out 0.5s;
+	-webkit-transition: 3s ease-out 2.5s;
+	-ms-transition: 4s ease-out 3.5s;
 }
 
 #banner:hover::after
